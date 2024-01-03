@@ -6,7 +6,10 @@ function App() {
   return (
     <>
       <HeroSection></HeroSection>
-      <ProductCard></ProductCard>
+      <div className="product-section">
+        <ProductCard></ProductCard>
+        <ProductCard></ProductCard>
+      </div>
     </>
   )
 }

@@ -1,19 +1,24 @@
 .hero-section{
-  align-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: red 1px solid;
+}
+
+.product-section{
+  display: flex;
+  border: green 1px solid;
 }
 
 .product-card{
+  display: flex;
+  flex-direction: column;
   border: solid 1px black;
   width: 200px;
-  height: 400px;
   margin: 10px;
 }
 
-.product-card img{
-  height:70%;
-  width: 200px;
-  
-}
 
 .inner-proudct-card{
   padding-left: 10px;
