@@ -35,3 +35,13 @@
 .inner-proudct-card{
   padding-left: 10px;
 }
+
+
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: #212121;
+  color: white;
+  padding: 40px 20px;
+}
