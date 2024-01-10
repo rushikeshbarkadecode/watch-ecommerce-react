@@ -14,6 +14,7 @@ function App() {
       <div className="product-section">
         <ProductCard title='Mill Chair' price='400'></ProductCard>
         <ProductCard title='Rolex' price='40000'></ProductCard>
+        <ProductCard title='Titan' price='40000'></ProductCard>
       </div>
       <Footer></Footer>
     </>
