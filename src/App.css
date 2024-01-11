@@ -32,7 +32,7 @@
   height: 200px;
   padding: 20px;
   text-align: center;
-  background:linear-gradient(0deg, rgba(0, 71, 32, 0.3), rgba(0, 0, 0, 0.3)), url(static/images/rolex-watch.webp);
+  background:linear-gradient(0deg, rgba(0, 71, 32, 0.3), rgba(0, 0, 0, 0.3)), url("../public/static/images/rolex-watch.webp");
   background-position: center;
   background-size: cover;
   color: white;
