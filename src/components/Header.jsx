@@ -6,8 +6,8 @@ export default function Header(){
             </div>
             <div className="menus">
                 <ul>
-                    <li>Cart</li>
                     <li>New arrivals</li>
+                    <li>Cart</li>
                 </ul>
             </div>
         </header>

@@ -32,11 +32,12 @@
   height: 200px;
   padding: 20px;
   text-align: center;
-  background:linear-gradient(0deg, rgba(0, 71, 32, 0.3), rgba(0, 0, 0, 0.3)), url("../public/static/images/rolex-watch.webp");
+  background:linear-gradient(0deg, rgba(0, 134, 60, 0.466), rgba(0, 0, 0, 0.651)), url("../public/static/images/rolex-watch.webp");
   background-position: center;
   background-size: cover;
   color: white;
 }
+
 
 .hero-section button{
   border: none;
@@ -46,10 +47,15 @@
   color: white;
 }
 
+.hero-section button:hover{
+  background-color: rgba(0, 58, 109);
+}
+
 .product-section{
   display: flex;
   flex-wrap: wrap;
   border: green 1px solid;
+  padding: 20px 10px;
 }
 
 .product-card{
@@ -63,6 +69,22 @@
 
 .inner-proudct-card{
   padding-left: 10px;
+}
+
+.category-box{
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cb-col1{
+  flex: 1;
+  border: 1px solid black;
+}
+
+.cb-col2{
+  flex: 1;
+  border: 1px solid red;
 }
 
 
