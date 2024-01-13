@@ -38,7 +38,6 @@
   color: white;
 }
 
-
 .hero-section button{
   border: none;
   background-color: rgb(14, 143, 255);
@@ -55,6 +54,7 @@
   display: flex;
   flex-wrap: wrap;
   border: green 1px solid;
+  justify-content: center;
   padding: 20px 10px;
 }
 
@@ -66,9 +66,8 @@
   margin: 10px;
 }
 
-
 .inner-proudct-card{
-  padding-left: 10px;
+  padding: 10px;
 }
 
 .category-box{
@@ -85,6 +84,22 @@
 .cb-col2{
   flex: 1;
   border: 1px solid red;
+}
+
+.limited-offer{
+  display: flex;
+  margin: 30px;
+  padding: 20px;
+  justify-content: center;
+  background-color: #212121;
+  color: white;
+}
+
+.limited-offer .col2{
+  display: flex;
+  padding: 10px 20px;
+  flex-direction: column;
+  justify-content: center;
 }
 
 

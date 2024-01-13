@@ -3,6 +3,7 @@ import HeroSection from './components/HeroSection'
 import Header from './components/Header'
 import Footer from './components/footer'
 import CategoryBox from './components/CategoryBox'
+import LimitedOffer from './components/LimitedOffer'
 import './App.css'
 
 
@@ -16,8 +17,10 @@ function App() {
         <ProductCard title='Mill Chair' price='400'></ProductCard>
         <ProductCard title='Rolex' price='40000'></ProductCard>
         <ProductCard title='Titan' price='40000'></ProductCard>
+        <ProductCard title='Titan' price='40000'></ProductCard>
       </div>
       <CategoryBox></CategoryBox>
+      <LimitedOffer></LimitedOffer>
       <Footer></Footer>
 
     </>
