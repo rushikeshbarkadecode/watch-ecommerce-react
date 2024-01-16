@@ -1,17 +1,10 @@
-export default function CategoryBox(){
+export default function CategoryBox(props){
+    const categories = props.list
     return(
-        <div className="category-box">
-            <div className="cb-col1">
-                    Col 1
-            </div>
-            <div className="cb-col2">
-                <div className="cb-row1">
-                    Row 1
-                </div>
-                <div className="cb-row2">
-                    Row 2
-                </div>
-            </div>
+        <div className="product-category-box">
+            {categories.map((item) => {
+                <div>{item}</div>
+            })}
         </div>
-    );
+    )
 }
