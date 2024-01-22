@@ -21,6 +21,7 @@ function App() {
       </div>
       <ProductCollage/>
       <LimitedOffer></LimitedOffer>
+      
     </>
   )
 }
