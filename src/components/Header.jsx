@@ -5,7 +5,7 @@ export default function Header(){
 
     const toggleMenu = () => {
         const styling = {
-            display: "none",
+            display: "block",
         }
 
         if (styling.display == 'block'){
@@ -14,6 +14,8 @@ export default function Header(){
         } else{
             setStyle(styling)
         }
+        
+
     }
 
     return(
