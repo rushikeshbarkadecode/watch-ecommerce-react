@@ -5,26 +5,15 @@ import './index.css'
 import Header from './components/Header.jsx'
 import Footer from './components/footer.jsx'
 import Cart from './pages/cart.jsx'
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+import { BrowserRouter } from 'react-router-dom'
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-  },
-  {
-    path: "/cart",
-    element: <Cart />,
-  },
-]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Header/>
-      <RouterProvider router={router} />
-    <Footer/>
+      <BrowserRouter>
+        <Header/>
+        <App />
+        <Footer/>
+      </BrowserRouter>
   </React.StrictMode>,
 )

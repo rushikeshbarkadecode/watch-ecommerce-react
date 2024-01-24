@@ -1,34 +1,33 @@
 import { useState } from "react"
+import { Link } from "react-router-dom"
 
 export default function Header(){
-    const [style, setStyle] = useState()
+    const [menuVisibility, setStyle] = useState()
 
     const toggleMenu = () => {
         const styling = {
             display: "block",
         }
 
-        if (styling.display == 'block'){
-            styling.block = 'none'
+        if (menuVisibility){
+            styling.display = 'none'
             setStyle(styling)
-        } else{
+        } else {
             setStyle(styling)
         }
-        
-
+        console.log(menuVisibility)
     }
 
     return(
         <header className="header">
             <nav>
                 <div className="logo-container">
-                    <h2>PotentWatch</h2>
+                    <Link to='/'><h2>PotentWatch</h2></Link>
                 </div>
-                <div style={style} className="menu">
+                <div style={menuVisibility} className="menu">
                     <ul>
-                        <li>Cart</li>
                         <li>My Account</li>
-                        
+                        <li><Link to='/cart'>Cart</Link></li>
                     </ul>
                 </div>
                 <button onClick={toggleMenu} className="menu-icon">X</button>

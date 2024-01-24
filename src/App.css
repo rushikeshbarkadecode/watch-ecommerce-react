@@ -4,6 +4,7 @@
   font-family: Inter;
 }
 
+
 .header{
   justify-content: space-evenly;
   background-color: black;
@@ -20,6 +21,10 @@ nav{
 
 }
 
+nav h2{
+  color: white;
+}
+
 .logo-container{
   padding: 10px 0;
 }
@@ -28,6 +33,12 @@ nav{
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+
+
+.menu a{
+  color: white;
 }
 
 .menu li{
@@ -123,7 +134,9 @@ nav{
   background-color: #212121;
   color: white;
   padding: 40px 20px;
-  position: sticky;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 @media only screen and (max-width: 950px) {

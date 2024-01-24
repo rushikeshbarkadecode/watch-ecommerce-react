@@ -1,7 +1,10 @@
+import { useParams } from "react-router-dom"
+
 export default function Product(){
+    const {productName} = useParams()
     return(
         <div>
-            <h1>Product Page</h1>
+            <h2>Product Name: {productName}</h2>
         </div>
     )
 }
