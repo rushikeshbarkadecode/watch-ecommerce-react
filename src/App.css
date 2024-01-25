@@ -142,6 +142,11 @@ nav h2{
   width: 100%;
 }
 
+.product-container{
+  display: flex;
+  justify-content: space-between;
+}
+
 @media only screen and (max-width: 950px) {
   .menu{
     position: absolute;
