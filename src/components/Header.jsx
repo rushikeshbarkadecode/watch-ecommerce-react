@@ -26,8 +26,11 @@ export default function Header(){
                 </div>
                 <div style={menuVisibility} className="menu">
                     <ul>
-                        <li>My Account</li>
+                        <li><Link to='/account'>Account</Link></li>
                         <li><Link to='/cart'>Cart</Link></li>
+                        <li><Link to='/orders'>Orders</Link></li>
+                        <li><Link to='/login'>Login</Link></li>
+                        <li><Link to='/sign-up'>Sign Up</Link></li>
                     </ul>
                 </div>
                 <button onClick={toggleMenu} className="menu-icon">X</button>

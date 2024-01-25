@@ -4,6 +4,9 @@
   font-family: Inter;
 }
 
+.page{
+  padding: 40px 40px;
+}
 
 .header{
   justify-content: space-evenly;
