@@ -1,19 +1,13 @@
 import { useParams } from "react-router-dom"
+import products from "../data"
+import ProductPage from "../components/ProductPage"
 
 export default function Product(){
     const {productName} = useParams()
+    const getProduct = products.find(product => product.name === productName)
     return(
         <div className='page'>
-            <div className="product-container">
-                <div className="img-section">Img</div>
-                <div className="product-info">
-                    <h1>{productName}</h1>
-                    <h4>Price: $200</h4>
-                    <p>This is product description section.</p>
-                    <button className="add-to-cart">Add to cart</button>
-                    <button className="buy-now">Buy now</button>
-                    </div>
-            </div>
+            <ProductPage name={getProduct['name']} img={getProduct.img} desc={getProduct.desc} price={getProduct.price}/>
         </div>
     )
 }
