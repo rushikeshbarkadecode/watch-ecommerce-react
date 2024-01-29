@@ -32,15 +32,15 @@
 .product-section{
   display: flex;
   flex-wrap: wrap;
-  border: green 1px solid;
   justify-content: center;
   padding: 20px 10px;
+  margin: 20px 0;
 }
 
 .product-card{
   display: flex;
   flex-direction: column;
-  border: solid 1px black;
+  box-shadow: inset black;
   width: 200px;
   margin: 10px;
 }
@@ -68,12 +68,32 @@
 
 .cb-col1{
   flex: 1;
-  border: 1px solid black;
+  background: url('../public/static/images/cover-image.jpg');
+  
+  background-position: center;
+  background-size: cover;
 }
 
 .cb-col2{
   flex: 1;
-  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+}
+
+.cb-row1{
+  flex: 1;
+  background: url('../public/static/images/cover-img3.webp');
+  background-position: center;
+  background-size: cover;
+
+}
+
+.cb-row2{
+  flex: 1;
+
+  background: url('../public/static/images/cover-img2.webp');
+  background-position: center;
+  background-size: cover;
 }
 
 .limited-offer{

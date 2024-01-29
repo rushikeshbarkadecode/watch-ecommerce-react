@@ -7,7 +7,6 @@ import Footer from './components/footer.jsx'
 import Cart from './pages/cart.jsx'
 import { BrowserRouter } from 'react-router-dom'
 
-
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
       <BrowserRouter>
