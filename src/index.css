@@ -67,17 +67,3 @@ nav h2{
   padding: 40px 20px;
   margin-top: auto;
 }
-
-@media only screen and (max-width: 950px) {
-  .menu{
-    position: absolute;
-    top: 70px;
-    flex-direction: column;
-    align-items: start;
-    display: none;
-  }
-
-  .menu-icon{
-    display: block;
-  }
-}
