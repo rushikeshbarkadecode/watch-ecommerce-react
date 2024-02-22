@@ -37,25 +37,31 @@ nav h2{
   padding: 10px 0;
 }
 
-.menu{
+nav a{
+  text-decoration: none;
+}
+
+#menu{
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-
-
-.menu a{
+#menu a{
   color: white;
 }
 
-.menu li{
+#menu li{
   display: inline;
   padding: 0 20px;
 }
 
 .menu-icon{
   display: none;
+  background-color: transparent;
+  color: white;
+  outline: none;
+  border: none;
 }
 
 .footer{

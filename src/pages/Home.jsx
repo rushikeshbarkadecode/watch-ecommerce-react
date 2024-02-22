@@ -10,6 +10,7 @@ export default function Home(){
     const products = productsData
     return(
         <>
+        
            <HeroSection></HeroSection>
             <CategoryBox list={[categoryList]}/>
             <div className="product-section">
@@ -19,6 +20,7 @@ export default function Home(){
                     ))
                 }
             </div>
+            
             <ProductCollage/>
             
         </>
