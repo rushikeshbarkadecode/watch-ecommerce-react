@@ -8,19 +8,19 @@ const products = [
     {
         name: 'Rolex Daytona',
         price: '40000',
-        desc: 'Stainless-steel watch with green face design.',
+        desc: 'Stainless-steel watch with diamond finish. Made in Switzerland.',
         img: '/static/images/rolex daytona watch.webp'
     },
     {
         name: 'Rolex Day Date 40',
         price: '70000',
-        desc: 'Stainless-steel watch with green face design.',
+        desc: 'Rose gold finish with fine lines. Experience the luxury.',
         img: '/static/images/rolex-day-date-40.jpg'
     },
     {
-        name: 'Rado Watch',
+        name: 'Rado Watch Gigas',
         price: '1000',
-        desc: 'Stainless-steel watch with green face design.',
+        desc: 'Classic Rado watch with special strap and gold finish.',
         img: '/static/images/rado watch.webp'
     },
 ]
