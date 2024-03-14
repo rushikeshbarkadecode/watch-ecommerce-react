@@ -15,8 +15,6 @@ body{
 
 .header{
   justify-content: space-evenly;
-  background-color: black;
-  color: white;
   position: sticky;
   z-index: 1;
 }
@@ -29,16 +27,13 @@ nav{
 
 }
 
-nav h2{
-  color: white;
-}
-
-.logo-container{
-  padding: 10px 0;
-}
 
 nav a{
   text-decoration: none;
+}
+
+.logo-container img{
+  width: 200px;
 }
 
 #menu{
@@ -47,8 +42,12 @@ nav a{
   justify-content: center;
 }
 
+#menu ul{
+  margin-bottom: 0;
+}
+
 #menu a{
-  color: white;
+  color: black;
 }
 
 #menu li{
@@ -59,7 +58,7 @@ nav a{
 .menu-icon{
   display: none;
   background-color: transparent;
-  color: white;
+
   outline: none;
   border: none;
 }

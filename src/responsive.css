@@ -20,6 +20,10 @@
       padding: 15px 20px;
     }
   
+    #menu a{
+      color: wheat;
+    }
+
     .menu-icon{
       display: block;
     }
