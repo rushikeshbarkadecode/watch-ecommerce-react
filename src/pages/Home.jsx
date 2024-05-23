@@ -1,7 +1,6 @@
 import ProductCard from '../components/ProductCard'
 import HeroSection from '../components/HeroSection'
 import ProductCollage from '../components/ProductCollage'
-import LimitedOffer from '../components/LimitedOffer'
 import CategoryBox from "../components/CategoryBox";
 import productsData from '../data'
 
