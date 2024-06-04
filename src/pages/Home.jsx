@@ -19,9 +19,8 @@ export default function Home(){
                     ))
                 }
             </div>
-            
+
             <ProductCollage/>
-            
         </>
     )
 }

@@ -17,6 +17,7 @@ export default function ProductPage(props) {
               <p>{props.desc}</p>
             </div>
         </div>
+        
     </div>
   )
 }

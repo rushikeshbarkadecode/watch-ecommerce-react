@@ -3,23 +3,24 @@ import { Link } from "react-router-dom"
 import HeaderSearch from "./HeaderSearch"
 
 export default function Header(){
-    let menuVisibility = false
+
+    const [menuSwitch, setMenuSwitch] = useState(false)
     const ref = useRef()
-    const toggleMenu = () => {
-        if(menuVisibility == false){
+    
+    const menuSwitchHandler = () => {
+        if (menuSwitch ==  false){
             ref.current.style.display = 'block'
-            menuVisibility = true
-        } else if(menuVisibility == true){
+        } else if(menuSwitch == true){
             ref.current.style.display = 'none'
-            menuVisibility = false
         }
+        setMenuSwitch(!menuSwitch)
     }
 
     return(
         <header className="header">
             <nav>
                 <div className="upper-header">
-                    <button onClick={toggleMenu} className="menu-icon">
+                    <button onClick={menuSwitchHandler} className="menu-icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" className="bi bi-list" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
                         </svg>
