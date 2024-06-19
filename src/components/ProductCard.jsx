@@ -11,7 +11,7 @@ export default function ProductCard(props){
                     <img src={props.img} alt="" />
                 </div>
                 <div className="inner-proudct-card">
-                    <h3 className="card-title">{props.name}</h3>
+                    <h4 className="card-title">{props.name}</h4>
                     <p >${props.price}</p>
                 </div>
             </div>
